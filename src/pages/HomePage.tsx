@@ -1,17 +1,17 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import './HomePage.css'
 import LoginButton from '../components/button/Login';
+import TabComponent from '../components/TabComponent';
 
 const HomePage: React.FC = () => {
-  const { t } = useTranslation();
 
   return (
     <div className="homepage">
       <header className="header">
-        <h1>{t('welcome')}</h1>
       </header>
       <section className="entries">
         <LoginButton />
+        <TabComponent />
       </section>
     </div>
   );

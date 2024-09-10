@@ -18,31 +18,14 @@
   padding: 0;
   box-sizing: border-box;
   color: #000000;
-
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f9fcff;
+  align-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+html,body,main {
+  height: 100%;
+  place-items: center;
 }
 
 button {

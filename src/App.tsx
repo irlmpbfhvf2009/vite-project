@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <div className="app">
       <header className="app-header">
-        <div className="header-right">
+        <div className="header-ls">
           <LanguageSwitcher />
         </div>
       </header>
