@@ -1,29 +1,27 @@
 .language-switcher {
     position: fixed;
-    top: 18px; /* 距离顶部的距离 */
-    right: 130px; /* 距离右侧的距离 */
-    z-index: 1000; /* 确保按钮在其他内容之上 */
-    background-color: white; /* 按钮背景色 */
-    padding: 0px; /* 按钮内边距 */
-    border-radius: 15px; /* 按钮圆角 */
+    top: 18px; 
+    right: 130px;
+    z-index: 1000; 
+    padding: 0px; 
+    border-radius: 15px; 
   }
   
   select {
     border: none;
     background: none;
-    font-size: 16px; /* 字体大小 */
+    font-size: 16px;
   }
   
-  /* 媒体查询 - 适应手机屏幕 */
   @media (max-width: 600px) {
     .language-switcher {
-      top: 5px; /* 调整在手机屏幕上的顶部距离 */
-      right: 75px; /* 调整在手机屏幕上的右侧距离 */
-      padding: 3px; /* 减少手机屏幕上的内边距 */
+      top: 5px; 
+      right: 75px;
+      padding: 3px; 
     }
   
     select {
-      font-size: 14px; /* 在手机上调整字体大小 */
+      font-size: 14px;
     }
   }
   
