@@ -1,0 +1,14 @@
+{
+    "welcome": "欢迎",
+    "login": "登录",
+    "register": "注册",
+    "rememberMe": "记住我",
+    "email": "信箱",
+    "password": "密码",
+    "back": "返回",
+    "passwordPlaceholder": "格式：6 ~ 20 个字元",
+    "confirmPasswordPlaceholder": "再输入一次密码",
+    "confirm": "再确认"  
+
+  }
+  

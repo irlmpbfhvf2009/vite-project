@@ -1,0 +1,34 @@
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none; 
+  border: 1px solid #ccc;
+  font-size: 16px; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, box-shadow 0.3s; 
+  position: fixed;
+  top: 16px; 
+  right: 40px; 
+  z-index: 800; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  font-family: Arial, sans-serif; 
+  padding: 10px;
+  outline: none;
+  width: 4%;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+  
+  @media (max-width: 600px) {
+    .login-button {
+      top: 15px; /* 调整在手机屏幕上的顶部距离 */
+      right: 10px; /* 调整在手机屏幕上的右侧距离 */
+      padding: 8px 16px; /* 调整手机屏幕上的内边距 */
+      font-size: 14px; /* 调整手机屏幕上的字体大小 */
+    }
+  }
+  

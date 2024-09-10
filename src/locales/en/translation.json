@@ -1,0 +1,14 @@
+{
+    "welcome": "Welcome",
+    "login": "Login",
+    "register": "Register",
+    "rememberMe": "Remember Me",
+    "email": "Email",
+    "password": "Passowrd",
+    "back": "Back",
+    "passwordPlaceholder": "Format: 6 ~ 20 characters",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "confirm": "Confirm"  
+
+  }
+  

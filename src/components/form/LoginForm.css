@@ -1,0 +1,57 @@
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+
+  }
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  
+  .form-group label {
+    margin-right: 0px;
+    text-align: left;
+    flex: 0.3;
+
+  }
+  
+  .form-group input {
+    flex: 1;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+  
+  .remember-me {
+    align-items: left;
+    justify-content: flex-start;
+  }
+
+  .remember-me input[type="checkbox"] {
+    flex: 0.1; 
+    margin-right: 5px; 
+    cursor: pointer;
+
+  }
+  
+  .remember-me label {
+    flex: 5;
+    cursor: pointer;
+  }
+
+  .form-group button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+
+  }
+  
+  .form-group button:hover {
+    background-color: #45a049;
+  }

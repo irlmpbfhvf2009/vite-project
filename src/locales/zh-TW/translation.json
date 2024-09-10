@@ -1,0 +1,13 @@
+{
+    "welcome": "歡迎",
+    "login": "登入",
+    "register": "註冊",
+    "rememberMe": "記住我",
+    "email": "信箱",
+    "password": "密碼",
+    "back": "返回",
+    "passwordPlaceholder": "格式：6 ~ 20 個字元",
+    "confirmPasswordPlaceholder": "再輸入一次密碼",
+    "confirm": "再確認"  
+  }
+  
